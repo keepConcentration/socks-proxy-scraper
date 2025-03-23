@@ -1,0 +1,53 @@
+
+# Generated .gitignore file
+
+# Node.js dependencies and modules
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist/
+build/
+out/
+
+# macOS-specific files
+.DS_Store
+
+# IDE settings and project files
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java-specific
+*.class
+target/
+
+# Other
+*.swp
+*.bak
+*.orig
